@@ -1,6 +1,17 @@
 import "./intro.css";
+import React from 'react'
+import { useSpring, animated } from '@react-spring/web'
 
 const Intro = () => {
+  const styles = useSpring({
+    loop: true,
+    to: [
+      { opacity: 1, color: '#ffaaee' },
+      { opacity: 0, color: 'orange' },
+    ],
+    from: { opacity: 0, color: 'red' },
+  })
+
   return (
     <div>
       <header class="max-h-full bg-white p-6 grid">
@@ -10,6 +21,7 @@ const Intro = () => {
           </div>
           <div class="mt-8 md:mt-0 lg:justify-end col-span-2">
             <h1 class="text-4xl text-gray-800 text-center md:text-left font-bold mb-6">Hi, I am Ouissal, Web developper</h1>
+            <animated.div style={styles}>Open to Work</animated.div>
             <p class="text-xl text-gray-800 text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi similique cupiditate, ducimus qui odit doloribus! Veritatis nihil, maxime, veniam perferendis vitae explicabo amet exercitationem sed quas inventore, consequatur ipsa necessitatibus!</p>
             <button type="button" class="text-white my-5 bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">See more</button>
           </div>

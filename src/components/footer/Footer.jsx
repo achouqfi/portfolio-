@@ -1,10 +1,11 @@
 import React from 'react';
 
-const Navbar = () => {
+const Footer = () => {
     return (
-        <div>
-             <header class="bg-black shadow border-t-4  border-yellow-400">
-                <div class="container mx-auto px-6 py-4">
+        <footer class="flex justify-center  text-gray-100 bg-gray-800">
+            <div class="container">
+                <header class=" shadow border-b-4  border-yellow-400">
+                <div class="container px-6 py-4">
                     <div class="flex items-center justify-between">
                         <div>
                             <a class="flex items-center text-white hover:text-indigo-600" href="/">
@@ -15,7 +16,15 @@ const Navbar = () => {
                                 <span class="mx-3 font-medium text-sm md:text-base">Ouissal Djioui</span>
                             </a>
                         </div>
-                        <div class="flex items-center -mx-2">
+                        <div class="flex justify-center">
+                            <div class="bg-white rounded-lg">
+                                <div class="flex flex-wrap justify-between md:flex-row">
+                                    <input type="email" class="m-1 p-3 appearance-none rounded-lg text-gray-700 text-sm focus:outline-none" placeholder="Enter your email" />
+                                    <button class="w-full m-1 p-2 text-sm bg-gray-800 rounded-lg font-semibold uppercase lg:w-auto">subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex items-center ">
                             <a class="flex items-center mx-2 text-white hover:text-indigo-600" href="/">
                                 <svg class="h-5 w-5 sm:h-6 sm:w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M19 11H5M19 11C20.1046 11 21 11.8954 21 13V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V13C3 11.8954 3.89543 11 5 11M19 11V9C19 7.89543 18.1046 7 17 7M5 11V9C5 7.89543 5.89543 7 7 7M7 7V5C7 3.89543 7.89543 3 9 3H15C16.1046 3 17 3.89543 17 5V7M7 7H17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -37,8 +46,9 @@ const Navbar = () => {
                     </div>
                 </div>
             </header>
-        </div>
+            </div>
+        </footer>
     );
 }
 
-export default Navbar;
+export default Footer;

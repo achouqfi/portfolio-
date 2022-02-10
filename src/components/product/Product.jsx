@@ -2,115 +2,76 @@ import React from 'react';
 
 const Product = () => {
   return (
-    <div>
-      
-      <section class="bg-white py-20">
-                <div class="max-w-5xl px-6 mx-auto text-center">
-                    <h2 class="text-2xl font-semibold text-gray-800">Latest Posts</h2>
-
-                    <div class="flex flex-col items-center justify-center mt-6">
-                        <a class="max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="/">
-                            <div class="flex items-center justify-between px-4 py-2">
-                                <h3 class="text-lg font-medium text-gray-700">Easy, Free Laravel CI Using GitHub Actions</h3>
-                                <span class="block text-gray-600 font-light text-sm">20 Jan 2020</span>
-                            </div>
-                        </a>
-
-                        <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="/">
-                            <div class="flex items-center justify-between px-4 py-2">
-                                <h3 class="text-lg font-medium text-gray-700">Pest: a delightful PHP Testing Framework</h3>
-                                <span class="block text-gray-600 font-light text-sm">29 Oct 2019</span>
-                            </div>
-                        </a>
-
-                        <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="/">
-                            <div class="flex items-center justify-between px-4 py-2">
-                                <h3 class="text-lg font-medium text-gray-700">Using inline SVGs in Vue components</h3>
-                                <span class="block text-gray-600 font-light text-sm">15 Oct 2019</span>
-                            </div>
-                        </a>
-
-                        <a class="mt-8 max-w-2xl w-full block bg-white shadow-md rounded-md border-t-4 border-indigo-600 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110" href="/">
-                            <div class="flex items-center justify-between px-4 py-2">
-                                <h3 class="text-lg font-medium text-gray-700">Acceptance Testing Laravel & VueJs Apps with Codeception</h3>
-                                <span class="block text-gray-600 font-light text-sm">3 Oct 2019</span>
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="flex items-center justify-center mt-12">
-                        <a class="flex items-center text-gray-600 hover:underline hover:text-gray-500" href="/">
-                            <span>View More</span>
-
-                            <svg class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                            </svg>
-                        </a>
+    <div>    
+      <section class="bg-black py-20">
+          <div class="max-w-5xl px-6 mx-auto text-center">
+              <h1 class="text-3xl font-semibold text-yellow-400">Technologies and skills</h1>
+          </div>
+          <div id="wrapper" class="px-4 py-4 mx-auto ">
+            <div class="md:grid sm:grid-flow-row sm:gap-5 sm:grid-cols-9 ml-4">
+                <div id="jh-stats-positive" class=" px-4 py-4 bg-white border-4 border-yellow-400 rounded">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/197px-Unofficial_JavaScript_logo_2.svg.png" className='h-20 w-20'  alt="" />
+                        <p class="text-lg text-center text-gray-500">JavaScripy</p>
                     </div>
                 </div>
-            </section>
-
-            <section class="bg-gray-800 pattern py-20">
-                <div class="max-w-5xl px-6 mx-auto text-center">
-                    <h2 class="text-2xl font-semibold text-white">Projects</h2>
-
-                    <div class="flex items-center justify-center mt-10">
-                        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-                            <div class="max-w-xs w-full">
-                                <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                    <img class="object-cover h-8" src="https://premium-tailwindcomponents.netlify.app/assets/svg/tailwindcomponent-dark.svg" alt="" />
-                                </div>
-
-                                <a href="/" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                                    <div class="py-2 px-3 text-center text-sm">
-                                        <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <span class="block text-gray-500 mt-2">tailwindcomponents.com</span>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="max-w-xs w-full">
-                                <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                    <img class="object-cover h-8" src="https://premium-tailwindcomponents.netlify.app/assets/svg/tailwindcomponent-dark.svg" alt="" />
-                                </div>
-
-                                <a href="/" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                                    <div class="py-2 px-3 text-center text-sm">
-                                        <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <span class="block text-gray-500 mt-2">tailwindcomponents.com</span>
-                                    </div>
-                                </a>
-                            </div>
-
-                            <div class="max-w-xs w-full">
-                                <div class="flex items-center justify-center h-56 bg-white border-b-8 border-teal-400 rounded-md overflow-hidden">
-                                    <img class="object-cover h-8" src="https://premium-tailwindcomponents.netlify.app/assets/svg/tailwindcomponent-dark.svg" alt="" />
-                                </div>
-
-                                <a href="/" class="block bg-gray-700 mt-5 rounded-md overflow-hidden transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                                    <div class="py-2 px-3 text-center text-sm">
-                                        <p class="text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-
-                                        <span class="block text-gray-500 mt-2">tailwindcomponents.com</span>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="flex items-center justify-center mt-12">
-                        <a class="flex items-center text-white hover:underline hover:text-gray-200" href="/">
-                            <span>View More On Github</span>
-
-                            <svg class="h-5 w-5 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/>
-                            </svg>
-                        </a>
+    
+                <div id="jh-stats-negative" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png" className='h-20 w-20'  alt="" />
+                        <p class="text-lg text-center text-gray-500">ReactJS</p>
                     </div>
                 </div>
-            </section>
+                <div id="jh-stats-negative" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png" alt="" />
+                        <p class="text-lg text-center text-gray-500">Vue.js</p>
+                    </div>
+                </div>
+                <div id="jh-stats-negative" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thu…d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" alt="" />
+                        <p class="text-lg text-center text-gray-500">Node Js</p>
+                    </div>
+                </div>
+
+                <div id="jh-stats-neutral" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png" alt="" />
+                        <p class="text-lg text-center text-gray-500">Laravel</p>
+                    </div>
+                </div>
+
+                <div id="jh-stats-neutral" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png" alt="" />
+                        <p class="text-lg text-center text-gray-500">Wordpress</p>
+                    </div>
+                </div>
+
+                <div id="jh-stats-neutral" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"   alt="" />
+                        <p class="text-lg text-center text-gray-500">UI-UX</p>
+                    </div>
+                </div>
+
+                <div id="jh-stats-neutral" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://blog.octo.com/wp-content/uploads/2015/12/react-logo-1000-transparent.png"  alt="" />
+                        <p class="text-lg text-center text-gray-500">Next.js</p>
+                    </div>
+                </div>
+
+                <div id="jh-stats-neutral" class=" px-4 py-4 mt-4 bg-white border-4 border-yellow-400 rounded sm:mt-0">
+                    <div>
+                    <img src="https://assets.website-files.com/60b9fdcaf8c317a1cfdb2bd9/60d5df5a051d8765f7027878_expressjs.png"   alt="" />
+                        <p class="text-lg text-center text-gray-500">Express.js</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
     </div>
   );
 }

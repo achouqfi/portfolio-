@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const About = () => {
+
   return (
     <div> 
       <section class="bg-gray-900 pattern py-20">
           <div class="max-w-5xl px-6 pb-12 mx-auto text-center">
-              <h2 class="text-2xl font-semibold text-white">About Me</h2>
+              <h1 class="text-3xl font-semibold text-yellow-400">About Me</h1>
           </div>
           <div class="container mx-auto">
             <div class="flex flex-wrap items-center">
@@ -30,27 +31,27 @@ const About = () => {
                   <div class="w-full md:w-6/12 px-4">
                     <div class="relative flex flex-col mt-4">
                       <div class="px-4 py-5 flex-auto">
-                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
-                          <i class="fas fa-sitemap"></i>
+                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-600">
+                          <i class="fas fa-sitemap  text-white"></i>
                         </div>
-                        <h6 class="text-xl mb-1 font-semibold">CSS Components</h6>
+                        <h6 class="text-xl mb-1 font-semibold text-white">CSS Components</h6>
                         <p class="mb-4 text-white">
-                          Notus JS comes with a huge number of Fully Coded CSS
-                          components.
+                        This extension also comes with 3 sample pages. They are
+                          fully coded so you can start working instantly.
                         </p>
                       </div>
                     </div>
                     <div class="relative flex flex-col min-w-0">
                       <div class="px-4 py-5 flex-auto">
-                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
-                          <i class="fas fa-drafting-compass"></i>
+                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-600">
+                          <i class="fas fa-drafting-compass  text-white"></i>
                         </div>
-                        <h6 class="text-xl mb-1 font-semibold">
+                        <h6 class="text-xl mb-1 font-semibold text-white">
                           JavaScript Components
                         </h6>
                         <p class="mb-4 text-white">
-                          We also feature many dynamic components for React, NextJS,
-                          Vue and Angular.
+                        This extension also comes with 3 sample pages. They are
+                          fully coded so you can start working instantly.
                         </p>
                       </div>
                     </div>
@@ -58,10 +59,10 @@ const About = () => {
                   <div class="w-full md:w-6/12 px-4">
                     <div class="relative flex flex-col min-w-0 mt-4">
                       <div class="px-4 py-5 flex-auto">
-                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
-                          <i class="fas fa-newspaper"></i>
+                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-600">
+                          <i class="fas fa-newspaper text-white"></i>
                         </div>
-                        <h6 class="text-xl mb-1 font-semibold">Pages</h6>
+                        <h6 class="text-xl mb-1 font-semibold text-white">Pages</h6>
                         <p class="mb-4 text-white">
                           This extension also comes with 3 sample pages. They are
                           fully coded so you can start working instantly.
@@ -70,13 +71,13 @@ const About = () => {
                     </div>
                     <div class="relative flex flex-col min-w-0">
                       <div class="px-4 py-5 flex-auto">
-                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-400">
-                          <i class="fas fa-file-alt"></i>
+                        <div class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-yellow-600">
+                          <i class="fas fa-file-alt text-white"></i>
                         </div>
-                        <h6 class="text-xl mb-1 font-semibold">Documentation</h6>
+                        <h6 class="text-xl mb-1 font-semibold text-white">Documentation</h6>
                         <p class="mb-4 text-white">
-                          Built by developers for developers. You will love how easy
-                          is to to work with Notus JS.
+                        This extension also comes with 3 sample pages. They are
+                          fully coded so you can start working instantly.
                         </p>
                       </div>
                     </div>
